@@ -7,6 +7,8 @@
   <title>Document</title>
   <link rel="stylesheet"  href="/node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet"  href="/node_modules/bootstrap/custom.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -67,6 +69,9 @@
 
   <!--  blog content cards-->
   <div class="container mt-5 text-center">
+    <div class="mb-3">
+      <h2 class="probootstrap-heading text-center text-white">Blog</h2>
+    </div>
     <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mx-auto">
       <div class="col">
         <div class="card mx-auto" style="width: 18rem;">
@@ -121,7 +126,7 @@
         </div>
     </div>
 </section>
-<!-- end of abou me section-->
+<!-- end of about me section-->
 
 <!-- contact me section-->
 <!-- Wrapper container -->
@@ -136,14 +141,14 @@
 
     <!-- Name input -->
     <div class="mb-3">
-      <label class="form-label" for="name">Name</label>
+      <label class="form-label text-white" for="name">Name</label>
       <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
       <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
     </div>
 
     <!-- Email address input -->
     <div class="mb-3">
-      <label class="form-label" for="emailAddress">Email Address</label>
+      <label class="form-label text-white for="emailAddress">Email Address</label>
       <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
       <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
       <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
@@ -151,7 +156,7 @@
 
     <!-- Message input -->
     <div class="mb-3">
-      <label class="form-label" for="message">Message</label>
+      <label class="form-label text-white" for="message">Message</label>
       <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
       <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
     </div>
@@ -176,9 +181,61 @@
 </div>
 <!--end of contact me section-->
 
+<!-- footer-->
 
 
 
+  <footer class="bg-dark text-center text-white">
+    
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="http://discordapp.com/users/1125324138177896552" role="button" target="_blank"
+        ><i class="fab fa-discord"></i></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/natasa-todorov-markovic-91172952/" role="button" target="_blank"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/NatasaTM" role="button" target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="https://natasatm.github.io/">NatasaTM</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  
+
+<!-- End of .container -->
+
+<!--end of footer-->
 
   
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
