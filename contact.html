@@ -55,20 +55,82 @@
 
   <!-- end of header-->
 
- <!-- about me section-->
+  <!-- contact me section-->
+<!-- Wrapper container -->
+<div class="custom-container py-4 px-5">
+
+    <!-- Bootstrap 5 starter form -->
+    <form id="contactForm">
+  
+      <div class="mb-3">
+        <h2 class="probootstrap-heading text-center text-white">Contact Me</h2>
+        <p class="lead text-white">Feel free to get in touch with me. Whether you have questions, feedback, or just want to say hello, I'd love to hear from you. Fill out the form below, and I'll get back to you as soon as possible.</p>
+      </div>
+  
+      <!-- Name input -->
+      <div class="mb-3">
+        <label class="form-label text-white" for="name">Name</label>
+        <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+        <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+      </div>
+  
+      <!-- Email address input -->
+      <div class="mb-3">
+        <label class="form-label text-white for="emailAddress">Email Address</label>
+        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+      </div>
+  
+      <!-- Message input -->
+      <div class="mb-3">
+        <label class="form-label text-white" for="message">Message</label>
+        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+        <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+      </div>
+  
+      <!-- Form submissions success message -->
+      <div class="d-none" id="submitSuccessMessage">
+        <div class="text-center mb-3">Form submission successful!</div>
+      </div>
+  
+      <!-- Form submissions error message -->
+      <div class="d-none" id="submitErrorMessage">
+        <div class="text-center text-danger mb-3">Error sending message!</div>
+      </div>
+  
+      <!-- Form submit button -->
+      <div class="d-grid">
+        <button class="btn btn-custom btn-lg mb-3" type="submit">Submit</button>
+      </div>
+  
+    </form>
+
+    <hr class="text-white">
+<h3 class="text-white text-center mb-3">Find Me On Social Media</h3>
+<ul class="list-inline banner-social-buttons text-center">
+    <!-- Linkedin-->
+  <li class="list-inline-item">
+    <a class="btn btn-custom btn-lg mb-3"  href="https://www.linkedin.com/in/natasa-todorov-markovic-91172952/" role="button" target="_blank"
+  ><i class="fab fa-linkedin-in me-2"></i>LinkedIn</a
+>
+  </li>
+  <li class="list-inline-item">
+    <a class="btn btn-custom btn-lg mb-3"  href="https://github.com/NatasaTM" role="button" target="_blank"
+  ><i class="fab fa-github me-2"></i>GitHub</a
+>
+  </li>
+  
+</ul>
+
+  
+  </div>
+  <!--end of contact me section-->
  
 
-<div class="container transparent-section mt-5 mb-5">
-    <h1 class="probootstrap-heading text-center text-white">About Me</h1>
-    <p class="about_me_page_p mb-5 lead text-white">I've always pondered how to succinctly describe myself. A woman, a mother, a hard learner, a fighter, a dreamer... What takes precedence? To be honest, I'm not entirely sure, but for now, let's go with 'hard learner' and 'dreamer'. Learning has always been my true passion. It might sound a bit 'cheesy', but it's the absolute truth. It's what led me to where I am today — fighting my way into the world of technology.<br><br>
-        A few years ago, I had the opportunity to apply for a QA automation master class, which required a basic understanding of the Java programming language. It was during my preparations for that class that I truly fell in love with programming. Around the same time, I discovered a retraining program for IT organized by UNDP and the Government of Serbia. Naturally, I applied, passed, and that's when my real learning journey began.
-        Our retraining program took place at the Faculty of Organizational Sciences in Belgrade. Looking back, I can confidently say it was quite a learning curve, going from ground zero to, well, certainly not a hero, but making substantial progress. I invested everything I had, both in time and dedication, to make this journey a reality.
-        <br><br>And here I am today — a certified junior Java developer with enormous dreams and a determination to make them come true. Will I succeed? Stay with me to find out.
-        <br> <br>P.S. I've recently embarked on the journey of learning HTML, CSS, JavaScript, and Bootstrap, and this is my very first project. I've seen the opportunity to learn more, share my knowledge, struggles, and thoughts on my path to becoming a full-stack developer."
-        </p>
-</div>
-<!-- end of about me section-->
-  <!-- footer-->
+
+
+
   
   <footer class="bg-dark text-center text-white">
     
