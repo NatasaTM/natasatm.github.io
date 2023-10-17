@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/background.jpg");
+    background-image: url("/images/boliviainteligente-oUg80_20hdM-unsplash.jpg");
     background-size: cover;
     /* Adjust to your preference */
     background-repeat: no-repeat;
@@ -33,15 +33,28 @@ body {
 
 
 .jumbotron {
-    background-color: #d9d9f2;
+    
     /* Your custom background color */
-    background-color: #d9d9f2;
-background-image: url("/images/brushed-alum-dark.png");
+    background-color: #8533ff;
+background-image: url("/images/green-dust-and-scratches.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     padding: 50px;
-    /* Adjust the padding as needed */
+    
     
 }
+.image-container-j {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.1); /* Shading around the image */
+  padding: 20px; /* Adjust the padding as needed */
+  border-radius: 50%; /* To make the container round */
+  text-align: center;
+}
+
+.image-container-1 img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* Adjust the styling as needed */
 .probootstrap-cover.overlay {
@@ -198,3 +211,140 @@ background-image: url("/images/brushed-alum-dark.png");
   border-bottom: 1px solid #dedede;
 }
 
+.sticky-footer{
+  background-image: linear-gradient(to right, black, #1a0033, #26004d, #39004d, #13001a, #4d0066, indigo);;
+}
+
+/*=================================================================
+  Single Blog Page
+==================================================================*/
+.post.post-single {
+  border: none;
+}
+
+.post.post-single .post-thumb {
+  margin-top: 30px;
+}
+
+.post-sub-heading {
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.post-social-share {
+  margin-bottom: 50px;
+}
+
+.post-excerpt {
+  margin-bottom: 60px;
+}
+
+.post-excerpt h3 a {
+  color: #000;
+}
+
+.post-excerpt p {
+  margin: 0 0 30px;
+}
+
+.post-excerpt blockquote.quote-post {
+  margin: 20px 0;
+}
+
+.post-excerpt blockquote.quote-post p {
+  line-height: 30px;
+  font-size: 20px;
+  color: #f75757;
+}
+
+.single-blog {
+  background-color: #fff;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.blog-subtitle {
+  font-size: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.next-prev {
+  border-bottom: 1px solid #dedede;
+  border-top: 1px solid #dedede;
+  margin: 20px 0;
+  padding: 25px 0;
+}
+
+.next-prev a {
+  color: #000;
+}
+
+.next-prev a:hover {
+  color: #f75757;
+}
+
+.next-prev .prev-post i {
+  margin-right: 10px;
+}
+
+.next-prev .next-post i {
+  margin-left: 10px;
+}
+
+.blog-item-content h3 {
+  line-height: 36px;
+}
+
+.blog-item-content h3 a {
+  transition: all .4s ease 0s;
+}
+
+.blog-item-content h3 a:hover {
+  color: #f75757 !important;
+}
+
+.lh-36 {
+  line-height: 36px;
+}
+
+
+
+.pagination .nav-links a,
+.pagination .nav-links span.current {
+  font-size: 20px;
+  font-weight: 500;
+  color: #c9c9c9;
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.pagination .nav-links span.current,
+.pagination .nav-links a.next,
+.pagination .nav-links a.prev {
+  color: #242424;
+}
+
+
+.blog-item {
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.05);*/
+  box-shadow: 2px 6px 8px 0 rgba(209, 209, 224, 0.5);
+  border: 1px solid #ffffff;
+
+}
+a {
+  color: #242424;
+  text-decoration: none;
+}
+a:focus,
+a:hover {
+    
+    text-decoration: none;
+}
